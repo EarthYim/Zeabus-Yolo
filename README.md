@@ -19,7 +19,7 @@ Its function is to detect and classifiy the objective gates and flares underwate
 
 - In line 98 `number_of_augment =` specify the number of the output augmented data. For example, if set to 2 then the amount of augmented data will be twice of the original data.  
 
-- The augmanetaion functions is randomly defined (see `augmentation()` line 49). The ratio for the random function can be specify with the variable `rand1` (line 50).
+- The augmanetaion functions is randomly defined (see `augmentation()` line 49). You can specify the random threshold with `augment_with_two_func` (line 22).
 
 ## My Experiment
 Pre-trained and trained weights: https://drive.google.com/open?id=166IY8LMWHVotWFCKsrmypBZWbTkO_bgp  
